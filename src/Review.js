@@ -40,9 +40,10 @@ const Review = () => {
           </>
         )}
       })}
-      <button className="btn" onClick={()=>backReview()} className="prev-btn"> Previous </button>
-      <button className="btn" onClick={()=>randomReview()} className="random-btn">Surprise Me!</button>
+      <button className="btn" onClick={()=>backReview()} className="prev-btn"> Back </button>
       <button className="btn" onClick={()=>forwardReview()} className="next-btn"> Next </button>
+      <br></br>
+      <button className="btn" onClick={()=>randomReview()} className="random-btn">Surprise Me!</button>
     </article>
   )
 };
